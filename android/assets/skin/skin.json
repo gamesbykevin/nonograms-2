@@ -1,0 +1,462 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	SaranaiGame-Bold-size-12: {
+		file: SaranaiGame-Bold-size-12.fnt
+	}
+	SaranaiGame-Bold-size-16: {
+		file: SaranaiGame-Bold-size-16.fnt
+	}
+	SaranaiGame-Bold-size-24: {
+		file: SaranaiGame-Bold-size-24.fnt
+	}
+	SaranaiGame-Bold-size-32: {
+		file: SaranaiGame-Bold-size-32.fnt
+	}
+	SaranaiGame-Bold-size-8: {
+		file: SaranaiGame-Bold-size-8.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	RGBA_0_0_0_255: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	RGBA_255_255_255_255: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: buttonBlueNormal_100w
+	}
+	apple_black: {
+		up: mode_black
+		over: mode_black_over
+	}
+	apple_gray: {
+		up: mode_gray
+		over: mode_gray_over
+	}
+	apple_color: {
+		up: mode_color
+		over: mode_color_over
+	}
+	page_next: {
+		up: page_next
+		over: page_next_over
+	}
+	page_previous: {
+		up: page_previous
+		over: page_previous_over
+	}
+	button_exit: {
+		up: quit_default
+		over: quit
+	}
+	button_restart: {
+		up: restart_default
+		over: restart
+	}
+	achievements: {
+		up: button_achievement
+		over: button_achievement_over
+	}
+	leaderboard: {
+		up: button_leaderboard
+		over: button_leaderboard_over
+	}
+	options: {
+		up: button_options
+		over: button_options_over
+	}
+	rating: {
+		up: button_rating
+		over: button_rating_over
+	}
+	share: {
+		up: button_share
+		over: button_share_over
+	}
+	button_continue: {
+		up: button_continue
+		over: button_continue_over
+	}
+	zoom_out: {
+		up: button_zoom_out
+		over: button_zoom_out_over
+	}
+	zoom_in: {
+		up: button_zoom_in
+		over: button_zoom_in_over
+	}
+	facebook: {
+		up: facebook
+	}
+	instagram: {
+		up: instagram
+	}
+	twitter: {
+		up: twitter
+	}
+	website: {
+		up: website
+	}
+	youtube: {
+		up: youtube
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: checked_enabled
+		checkboxOff: checked_disabled
+		font: SaranaiGame-Bold-size-16
+	}
+	checkbox_music: {
+		checkboxOn: music_on
+		checkboxOff: music_off
+		font: SaranaiGame-Bold-size-16
+	}
+	checkbox_sound: {
+		checkboxOn: sound_on
+		checkboxOff: sound_off
+		font: SaranaiGame-Bold-size-16
+	}
+	checkbox_vibrate: {
+		checkboxOn: vibrate_on
+		checkboxOff: vibrate_off
+		font: SaranaiGame-Bold-size-16
+	}
+	checkbox_lock: {
+		checkboxOn: lock_enabled
+		checkboxOff: lock_disabled
+		font: SaranaiGame-Bold-size-16
+	}
+	checkbox_lock_game: {
+		checkboxOn: lock_enabled (2)
+		checkboxOff: lock_disabled
+		font: SaranaiGame-Bold-size-16
+	}
+	checkbox_flag: {
+		checkboxOn: checkbox_flag
+		checkboxOff: disabled
+		font: SaranaiGame-Bold-size-16
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	dialog_star_empty: {
+		imageUp: dialog_star_empty
+	}
+	dialog_star_fill: {
+		imageUp: dialog_star_fill
+	}
+	level_option: {
+		imageUp: level_option_1
+		imageChecked: level_option_1
+	}
+	star_empty: {
+		imageUp: star_empty
+	}
+	star_fill: {
+		imageUp: star_fill
+	}
+	unknown: {
+		imageUp: unknown
+		imageOver: unknown_over
+	}
+	logo_youtube: {
+		imageUp: logo_youtube
+	}
+	logo_libgdx: {
+		imageUp: logo_libgdx
+	}
+	logo_google: {
+		imageUp: logo_google
+	}
+	logo_opengameart: {
+		imageUp: logo_opengameart
+	}
+	logo_craftpix: {
+		imageUp: logo_craftpix
+	}
+	facebook: {
+		imageUp: facebook
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+	}
+	normal: {
+		font: SaranaiGame-Bold-size-24
+		fontColor: RGBA_255_255_255_255
+	}
+	large: {
+		font: SaranaiGame-Bold-size-32
+		fontColor: RGBA_255_255_255_255
+	}
+	small: {
+		font: SaranaiGame-Bold-size-12
+		fontColor: RGBA_255_255_255_255
+	}
+	meter_1: {
+		parent: default
+		background: meter_1
+	}
+	meter_2: {
+		parent: default
+		background: meter_2
+	}
+	meter_3: {
+		parent: default
+		background: meter_3
+	}
+	meter_4: {
+		parent: default
+		background: meter_4
+	}
+	meter_5: {
+		parent: default
+		background: meter_5
+	}
+	meter_6: {
+		parent: default
+		background: meter_6
+	}
+	meter_7: {
+		parent: default
+		background: meter_7
+	}
+	meter_8: {
+		parent: default
+		background: meter_8
+	}
+	meter_9: {
+		parent: default
+		background: meter_9
+	}
+	meter_10: {
+		parent: default
+		background: meter_10
+	}
+	tiny: {
+		font: SaranaiGame-Bold-size-8
+		fontColor: RGBA_255_255_255_255
+	}
+	timer: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+	}
+	timer_progress: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+	}
+	timer_normal: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+		background: timer_normal
+	}
+	timer_progress_normal: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+		background: timer_progress_normal
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: SaranaiGame-Bold-size-16
+		fontColorSelected: RGBA_255_255_255_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: selectbox_background
+		background: selectbox_background
+	}
+	list_selectbox: {
+		font: SaranaiGame-Bold-size-16
+		fontColorSelected: RGBA_255_255_255_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: selectbox_background
+		background: selectbox_background
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		background: selectbox_background
+	}
+	scroll_selectbox: {
+		background: selectbox_background
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+		disabledFontColor: RGBA_255_255_255_255
+		background: selectbox_background
+		scrollStyle: scroll_selectbox
+		listStyle: list_selectbox
+		backgroundOver: selectbox_background
+		backgroundOpen: selectbox_background
+		backgroundDisabled: selectbox_background
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: SaranaiGame-Bold-size-32
+		fontColor: RGBA_255_255_255_255
+		downFontColor: RGBA_0_0_0_255
+		overFontColor: RGBA_255_255_255_255
+		checkedFontColor: RGBA_255_255_255_255
+		checkedOverFontColor: RGBA_255_255_255_255
+		disabledFontColor: RGBA_0_0_0_255
+		up: buttonBlueNormal
+		down: buttonBlueChecked
+		over: buttonBlueHover
+		checked: buttonBlueChecked
+		checkedOver: buttonBlueHover
+	}
+	green: {
+		font: SaranaiGame-Bold-size-32
+		fontColor: RGBA_255_255_255_255
+		downFontColor: RGBA_0_0_0_255
+		overFontColor: RGBA_255_255_255_255
+		checkedFontColor: RGBA_255_255_255_255
+		checkedOverFontColor: RGBA_255_255_255_255
+		disabledFontColor: RGBA_0_0_0_255
+		up: buttonGreenNormal
+		down: buttonGreenChecked
+		over: buttonGreenHover
+		checked: buttonGreenChecked
+		checkedOver: buttonGreenHover
+	}
+	blue_200: {
+		font: SaranaiGame-Bold-size-24
+		fontColor: RGBA_255_255_255_255
+		downFontColor: RGBA_0_0_0_255
+		overFontColor: RGBA_255_255_255_255
+		checkedFontColor: RGBA_255_255_255_255
+		checkedOverFontColor: RGBA_255_255_255_255
+		disabledFontColor: RGBA_0_0_0_255
+		up: buttonBlueNormal_200w
+		down: buttonBlueChecked_200w
+		over: buttonBlueHover_200w
+		checked: buttonBlueChecked_200w
+		checkedOver: buttonBlueHover_200w
+		disabled: buttonDisabled_200w
+	}
+	green_200: {
+		font: SaranaiGame-Bold-size-24
+		fontColor: RGBA_255_255_255_255
+		downFontColor: RGBA_0_0_0_255
+		overFontColor: RGBA_255_255_255_255
+		checkedFontColor: RGBA_255_255_255_255
+		checkedOverFontColor: RGBA_255_255_255_255
+		disabledFontColor: RGBA_0_0_0_255
+		up: buttonGreenNormal_200w
+		down: buttonGreenChecked_200w
+		over: buttonGreenHover_200w
+		checked: buttonGreenChecked_200w
+		checkedOver: buttonGreenHover_200w
+		disabled: buttonDisabled_200w
+	}
+	blue_100: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+		downFontColor: RGBA_0_0_0_255
+		overFontColor: RGBA_255_255_255_255
+		checkedFontColor: RGBA_255_255_255_255
+		checkedOverFontColor: RGBA_255_255_255_255
+		disabledFontColor: RGBA_0_0_0_255
+		up: buttonBlueNormal_100w
+		down: buttonBlueChecked_100w
+		over: buttonBlueHover_100w
+		checked: buttonBlueChecked_100w
+		checkedOver: buttonBlueHover_100w
+		disabled: buttonDisabled_100w
+	}
+	green_100: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+		downFontColor: RGBA_0_0_0_255
+		overFontColor: RGBA_255_255_255_255
+		checkedFontColor: RGBA_255_255_255_255
+		checkedOverFontColor: RGBA_255_255_255_255
+		disabledFontColor: RGBA_0_0_0_255
+		up: buttonGreenNormal_100w
+		down: buttonGreenChecked_100w
+		over: buttonGreenHover_100w
+		checked: buttonGreenChecked_100w
+		checkedOver: buttonGreenHover_100w
+		disabled: buttonDisabled_100w
+	}
+	calendar_current: {
+		font: SaranaiGame-Bold-size-24
+		up: calendar_current
+		over: calendar_current_hover
+	}
+	calendar_previous: {
+		font: SaranaiGame-Bold-size-24
+		up: calendar_previous
+		over: calendar_previous_hover
+	}
+	calendar_unavailable: {
+		font: SaranaiGame-Bold-size-24
+		up: calendar_unavailable
+	}
+	calendar_header: {
+		font: SaranaiGame-Bold-size-24
+		up: calendar_header
+	}
+	blue_200_static: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+		up: buttonBlueNormal_200w
+	}
+	blue_200_font_16: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+		downFontColor: RGBA_0_0_0_255
+		overFontColor: RGBA_255_255_255_255
+		checkedFontColor: RGBA_255_255_255_255
+		checkedOverFontColor: RGBA_255_255_255_255
+		disabledFontColor: RGBA_0_0_0_255
+		up: buttonBlueNormal_200w
+		down: buttonBlueChecked_200w
+		over: buttonBlueHover_200w
+		checked: buttonBlueChecked_200w
+		checkedOver: buttonBlueHover_200w
+		disabled: buttonDisabled_200w
+	}
+	green_200_font_16: {
+		font: SaranaiGame-Bold-size-16
+		fontColor: RGBA_255_255_255_255
+		downFontColor: RGBA_0_0_0_255
+		overFontColor: RGBA_255_255_255_255
+		checkedFontColor: RGBA_255_255_255_255
+		checkedOverFontColor: RGBA_255_255_255_255
+		disabledFontColor: RGBA_0_0_0_255
+		up: buttonGreenNormal_200w
+		down: buttonGreenChecked_200w
+		over: buttonGreenHover_200w
+		checked: buttonGreenChecked_200w
+		checkedOver: buttonGreenHover_200w
+		disabled: buttonDisabled_200w
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window_full
+		titleFont: SaranaiGame-Bold-size-24
+		titleFontColor: RGBA_255_255_255_255
+	}
+}
+}
